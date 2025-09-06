@@ -32,4 +32,4 @@ popup_html = """
 """
 
 # Chiều cao để lớn hơn viewport → overlay che toàn bộ
-st.components.v1.html(popup_html, height=600)
+st.components.v1.html(popup_html, height=1000)
