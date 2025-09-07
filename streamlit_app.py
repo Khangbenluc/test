@@ -5,8 +5,8 @@ st.title("💰 Giá vàng & Biểu đồ Kitco")
 st.header("📊 Giá vàng hiện tại")
 st.components.v1.html("""
 <iframe src="https://www.kitco.com/charts/gold" 
-    width="100%" height="150" style="border:none;"></iframe>
-""", height=160)
+    width="100%" height="4000" style="border:none;"></iframe>
+""", height=4020)
 
 st.header("📈 Biểu đồ giá vàng 24h")
 st.components.v1.html("""
